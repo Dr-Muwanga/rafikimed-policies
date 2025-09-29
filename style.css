@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #ffffff;
+  color: #111;
+}
+
+/* Landing Page */
+.landing {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: 100px;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #666;
+}
+
+.brand .logo {
+  display: block;
+  width: 80px;
+  height: auto;
+}
+
+.brand-name {
+  font-size: 2.0rem;
+  font-weight: 800;
+  color: #0606d1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.policy-links {
+  display: grid;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.policy-box {
+  display: block;
+  padding: 1.2rem;
+  background: #2563eb;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.policy-box:hover {
+  background: #1e40af;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+  background: #f1f1f1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+

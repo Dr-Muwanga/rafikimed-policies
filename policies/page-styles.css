@@ -1,0 +1,91 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f9fafb;
+  color: #111;
+}
+
+/* Logo + Wordmark */
+.brand {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.brand .logo {
+  display: block;
+  width: 80px;
+  height: auto;
+}
+
+.brand-name {
+  font-size: 2.0rem;
+  font-weight: 800;
+  color: #0b0ba7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  border-bottom: 1px solid #666;
+}
+
+header h1 {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  /* margin: 2rem auto; */
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+main h2 {
+  margin-top: 1.5rem;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+  background: #f1f1f1;
+}
