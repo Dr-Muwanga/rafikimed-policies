@@ -2,31 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Disclaimer</title>
+    <title>Cookies Policy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="./page-styles.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
-    <header>
-      <div class="brand">
-        <img src="../assets/symbol-logo.svg" alt="Company Logo" class="logo" />
-        <span class="brand-name">Medvase technologies</span>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="../index.html" aria-label="VerifiedMD home">
+          <img src="../assets/medvase.png" alt="Medvase Technologies" class="logo" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+          <a href="../index.html">Home</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./terms.html">Terms &amp; Conditions</a>
+          <a href="./disclaimer.html">Disclaimer</a>
+          <a href="./cookies.html" aria-current="page">Cookies Policy</a>
+        </nav>
       </div>
-      <nav>
-        <a href="/rafikimed-policies/index.html">Home</a>
-        <a href="/rafikimed-policies/policies/privacy.html">Privacy Policy</a>
-        <a href="/rafikimed-policies/policies/terms.html">Terms & Conditions</a>
-        <a href="/rafikimed-policies/policies/cookies.html">Cookies Policy</a>
-      </nav>
     </header>
     <main>
       <h1>Cookies</h1>
-      <p><strong>Last updated:</strong> September 30, 2025</p>
+      <p><strong>Last updated:</strong> October 28, 2026</p>
 
       <h2>1. What Are Cookies?</h2>
       <p>
         Cookies are small text files placed on your device when you visit our
-        website or use the <strong>RafikiMed</strong> application. They help us
+        website or use the <strong>VerifiedMD</strong> application. They help us
         improve functionality, analyze usage, and enhance your experience.
       </p>
 
@@ -73,7 +87,7 @@
       </p>
     </main>
     <footer>
-      <p>&copy; 2025 Medvase Technologies — All rights reserved.</p>
+      <p>&copy; <span class="current-year"></span> Medvase Technologies — All rights reserved.</p>
     </footer>
   </body>
 </html>

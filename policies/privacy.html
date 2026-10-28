@@ -5,24 +5,38 @@
     <title>Privacy Policy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="./page-styles.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
-    <header>
-      <div class="brand">
-        <img src="../assets/symbol-logo.svg" alt="Company Logo" class="logo" />
-        <span class="brand-name">Medvase technologies</span>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="../index.html" aria-label="VerifiedMD home">
+          <img src="../assets/medvase.png" alt="Medvase Technologies" class="logo" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+          <a href="../index.html">Home</a>
+          <a href="./privacy.html" aria-current="page">Privacy Policy</a>
+          <a href="./terms.html">Terms &amp; Conditions</a>
+          <a href="./disclaimer.html">Disclaimer</a>
+          <a href="./cookies.html">Cookies Policy</a>
+        </nav>
       </div>
-      <nav>
-        <a href="/rafikimed-policies/index.html">Home</a>
-        <a href="/rafikimed-policies/policies/terms.html">Terms & Conditions</a>
-        <a href="/rafikimed-policies/policies/disclaimer.html">Disclaimer</a>
-        <a href="/rafikimed-policies/policies/cookies.html">Cookies Policy</a>
-      </nav>
     </header>
     <main>
       <div>
-        <h1>Privacy Policy for RafikiMed Guidelines</h1>
-        <p>Last updated: September 30, 2025</p>
+        <h1>Privacy Policy for VerifiedMD Guidelines</h1>
+        <p>Last updated: October 28, 2026</p>
         <p>
           This Privacy Policy describes Our policies and procedures on the
           collection, use and disclosure of Your information when You use the
@@ -62,14 +76,14 @@
           </li>
           <li>
             <p>
-              <strong>Application</strong> refers to RafikiMed, the software
+              <strong>Application</strong> refers to VerifiedMD, the software
               program provided by the Company.
             </p>
           </li>
           <li>
             <p>
               <strong>Company</strong> (referred to as either "the Company",
-              "We", "Us" or "Our" in this Agreement) refers to RafikiMed Guidelines, Mackansign street, Mbarara.
+              "We", "Us" or "Our" in this Agreement) refers to Medvase  Technologies, Mackansign street, Mbarara.
             </p>
           </li>
           <li>
@@ -136,12 +150,16 @@
             <p>Phone number</p>
           </li>
           <li>
-            <p>Address, State, Province, ZIP/Postal code, City</p>
+            <p>Address, State, City, Country</p>
+          </li>
+          <li>
+            <p>Professional data, like expertise, specialty and work environment.</p>
           </li>
           <li>
             <p>Usage Data</p>
           </li>
         </ul>
+        
         <h4>Usage Data</h4>
         <p>Usage Data is collected automatically when using the Service.</p>
         <p>
@@ -441,7 +459,7 @@
       </div>
     </main>
     <footer>
-      <p>&copy; 2025 Medvase Technologies — All rights reserved.</p>
+      <p>&copy; <span class="current-year"></span> Medvase Technologies — All rights reserved.</p>
     </footer>
   </body>
 </html>

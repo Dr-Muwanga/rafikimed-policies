@@ -5,27 +5,41 @@
     <title>Terms & Conditions</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="./page-styles.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
-    <header>
-      <div class="brand">
-        <img src="../assets/symbol-logo.svg" alt="Company Logo" class="logo" />
-        <span class="brand-name">Medvase technologies</span>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="../index.html" aria-label="VerifiedMD home">
+          <img src="../assets/medvase.png" alt="Medvase Technologies" class="logo" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+          <a href="../index.html">Home</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./terms.html" aria-current="page">Terms &amp; Conditions</a>
+          <a href="./disclaimer.html">Disclaimer</a>
+          <a href="./cookies.html">Cookies Policy</a>
+        </nav>
       </div>
-      <nav>
-        <a href="/rafikimed-policies/index.html">Home</a>
-        <a href="/rafikimed-policies/policies/privacy.html">Privacy Policy</a>
-        <a href="/rafikimed-policies/policies/disclaimer.html">Disclaimer</a>
-        <a href="/rafikimed-policies/policies/cookies.html">Cookies Policy</a>
-      </nav>
     </header>
     <main>
       <h1>Terms & Conditions</h1>
-      <p><strong>Last updated:</strong> September 30, 2025</p>
+      <p><strong>Last updated:</strong> October 28, 2026</p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing or using the <strong>RafikiMed</strong> application (the
+        By accessing or using the <strong>VerifiedMD</strong> application (the
         “App”), you agree to be bound by these Terms and Conditions. If you do
         not agree, please discontinue use of the App.
       </p>
@@ -68,13 +82,13 @@
       <p>
         All content, including guidelines, calculators, algorithms, text,
         graphics, and design, is the intellectual property of
-        <strong>RafikiMed</strong> or its licensors. Unauthorized use is
+        <strong>VerifiedMD</strong> or its licensors. Unauthorized use is
         strictly prohibited.
       </p>
 
       <h2>6. Limitation of Liability</h2>
       <p>
-        <strong>RafikiMed</strong> and its contributors shall not be held liable
+        <strong>VerifiedMD</strong> and its contributors shall not be held liable
         for any damages, losses, or adverse outcomes arising from the use or
         misuse of the App, including reliance on its content.
       </p>
@@ -106,7 +120,7 @@
       </p>
     </main>
     <footer>
-      <p>&copy; 2025 Medvase Technologies — All rights reserved.</p>
+      <p>&copy; <span class="current-year"></span> Medvase Technologies — All rights reserved.</p>
     </footer>
   </body>
 </html>

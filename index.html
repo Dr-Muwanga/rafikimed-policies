@@ -2,32 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Our Policies</title>
+    <title>Medvase Technologies | Policies</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Medvase Technologies policy hub for privacy, terms, disclaimer, and cookies information."
+    />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="landing">
-      <!-- Logo -->
-      <div class="brand">
-        <img src="https://dr-muwanga.github.io/rafikimed-policies/assets/symbol-logo.svg" alt="Company Logo" class="logo" />
-        <span class="brand-name">Medvase technologies</span>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="index.html" aria-label="Medvase Technologies home">
+          <img src="assets/medvase.png" alt="Medvase Technologies" class="logo" style="width: 75px;" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="policies/privacy.html">Privacy Policy</a>
+          <a href="policies/terms.html">Terms &amp; Conditions</a>
+          <a href="policies/disclaimer.html">Disclaimer</a>
+          <a href="policies/cookies.html">Cookies Policy</a>
+        </nav>
       </div>
+    </header>
 
+    <main class="landing">
       <h1>Welcome</h1>
       <p>Please select a policy to read more:</p>
 
-      <!-- Policy Links -->
       <div class="policy-links">
         <a href="policies/privacy.html" class="policy-box">Privacy Policy</a>
-        <a href="policies/terms.html" class="policy-box">Terms & Conditions</a>
+        <a href="policies/terms.html" class="policy-box">Terms &amp; Conditions</a>
         <a href="policies/disclaimer.html" class="policy-box">Disclaimer</a>
         <a href="policies/cookies.html" class="policy-box">Cookies Policy</a>
       </div>
     </main>
 
     <footer>
-      <p>&copy; 2025 Medvase technologies — All rights reserved.</p>
+      <p>&copy; <span class="current-year"></span> Medvase Technologies — All rights reserved.</p>
     </footer>
   </body>
 </html>

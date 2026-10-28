@@ -5,28 +5,42 @@
     <title>Disclaimer</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="./page-styles.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
-    <header>
-      <div class="brand">
-        <img src="../assets/symbol-logo.svg" alt="Company Logo" class="logo" />
-        <span class="brand-name">Medvase technologies</span>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="../index.html" aria-label="VerifiedMD home">
+          <img src="../assets/medvase.png" alt="Medvase Technologies" class="logo" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+          <a href="../index.html">Home</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./terms.html">Terms &amp; Conditions</a>
+          <a href="./disclaimer.html" aria-current="page">Disclaimer</a>
+          <a href="./cookies.html">Cookies Policy</a>
+        </nav>
       </div>
-      <nav>
-        <a href="/rafikimed-policies/index.html">Home</a>
-        <a href="/rafikimed-policies/policies/privacy.html">Privacy Policy</a>
-        <a href="/rafikimed-policies/policies/terms.html">Terms & Conditions</a>
-        <a href="/rafikimed-policies/policies/cookies.html">Cookies Policy</a>
-      </nav>
     </header>
     <main>
       <h1>Disclaimer</h1>
-      <p><strong>Last updated:</strong> September 29, 2025</p>
+      <p><strong>Last updated:</strong> October 28, 2026</p>
 
       <section>
         <h2>Overview</h2>
         <p>
-          The content provided by <strong>RafikiMed</strong>, including clinical
+          The content provided by <strong>VerifiedMD</strong>, including clinical
           guidelines, algorithms, calculators, tables, charts, and explanatory
           material (collectively "Content"), is made available for
           <strong>educational and informational purposes only</strong>. The
@@ -115,10 +129,10 @@
       <section>
         <h2>No Warranties; Limitation of Liability</h2>
         <p>
-          All Content is provided "as is" and "as available" without warranties of any kind—express or implied. <strong>RafikiMed</strong> expressly disclaims all warranties, including but not limited to fitness for a particular purpose, merchantability, non-infringement, and accuracy.
+          All Content is provided "as is" and "as available" without warranties of any kind—express or implied. <strong>VerifiedMD</strong> expressly disclaims all warranties, including but not limited to fitness for a particular purpose, merchantability, non-infringement, and accuracy.
         </p>
         <p>
-          To the fullest extent permitted by law, <strong>RafikiMed</strong>, its officers, directors, employees, agents, licensors, and contributors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages, or any loss of profits, data, or goodwill arising from or related to the use of the App or reliance on Content.
+          To the fullest extent permitted by law, <strong>VerifiedMD</strong>, its officers, directors, employees, agents, licensors, and contributors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages, or any loss of profits, data, or goodwill arising from or related to the use of the App or reliance on Content.
         </p>
       </section>
 
@@ -140,7 +154,7 @@
       <section>
         <h2>Privacy, Data Entry & Storage</h2>
         <p>
-          If the App collects or stores health-related or personal information (input to calculators, bookmarks, notes), refer to our <a href="/policies/privacy.html">Privacy Policy</a> to understand what is collected and how it is used. Never enter personally identifiable information in public or shared devices. If you are a clinician entering identifiable patient data, ensure you comply with local data-protection and institutional policies.
+          If the App collects or stores health-related or personal information (input to calculators, bookmarks, notes), refer to our <a href="./privacy.html">Privacy Policy</a> to understand what is collected and how it is used. Never enter personally identifiable information in public or shared devices. If you are a clinician entering identifiable patient data, ensure you comply with local data-protection and institutional policies.
         </p>
       </section>
 
@@ -173,14 +187,14 @@
       <section>
         <h2>Indemnification</h2>
         <p>
-          To the fullest extent permitted by law, you agree to indemnify and hold harmless <strong>RafikiMed</strong> and its affiliates from any claims, losses, liabilities, and expenses (including reasonable legal fees) arising from your use of the App or violation of these terms.
+          To the fullest extent permitted by law, you agree to indemnify and hold harmless <strong>VerifiedMD</strong> and its affiliates from any claims, losses, liabilities, and expenses (including reasonable legal fees) arising from your use of the App or violation of these terms.
         </p>
       </section>
 
       <section>
         <h2>Jurisdiction & Governing Law</h2>
         <p>
-          These disclaimers and the use of the App are governed by the laws of the jurisdiction specified in our <a href="/policies/terms.html">Terms & Conditions</a>. If no jurisdiction is specified, the laws of the country in which the App is operated shall
+          These disclaimers and the use of the App are governed by the laws of the jurisdiction specified in our <a href="./terms.html">Terms &amp; Conditions</a>. If no jurisdiction is specified, the laws of the country in which the App is operated shall
           apply.
         </p>
       </section>
@@ -216,7 +230,7 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2025 Medvase Technologies — All rights reserved.</p>
+      <p>&copy; <span class="current-year"></span> Medvase Technologies — All rights reserved.</p>
     </footer>
   </body>
 </html>

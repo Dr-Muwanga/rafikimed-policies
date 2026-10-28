@@ -1,2 +1,2 @@
-# rafikimed-policies
-This is the policies website for the rafikmed app
+# Medvase Technologies Policies
+This is the policies website for the VerifiedMd app and website.
